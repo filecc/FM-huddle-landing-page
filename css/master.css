@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif; 
+    color: red;
+}
+:root{
+    /* colors */
+    --primary: #ff52bf;
+    --neutral-pale: hsl(193, 100%, 96%);
+    --neutral-dark: hsl(192, 100%, 9%);
+    --neutral-blue: hsl(208, 11%, 55%);
+    --heading: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+header{
+    background-image: url('../images/bg-hero-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 750px){
+
+    header{
+        background-image: url('../images/bg-hero-mobile.svg');
+    }
+}
