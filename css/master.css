@@ -11,12 +11,19 @@
     --neutral-pale: hsl(193, 100%, 96%);
     --neutral-dark: hsl(192, 100%, 9%);
     --neutral-blue: hsl(208, 11%, 55%);
+    --dark: #0a242f;
     --headeing: 'Poppins', sans-serif;
+}
+body{
+    color: var(--neutral-dark);
 }
 a {
         text-decoration: none;
         color: inherit;
     }
+ul{
+    list-style: none;
+}
 .container{
     max-width: 1300px;
     margin: 0 auto;
@@ -75,6 +82,7 @@ header{
     background-repeat: no-repeat;
     background-color: #edfafe;
     font-family: var(--headeing);
+    margin-bottom: 4rem;
 }
 .logoContainer{
     width: 15%;
@@ -93,20 +101,62 @@ header p{
     line-height: 25px;
 }
 /* main */
+main{
+    padding: 3rem 0;
+}
+.card{
+    padding: 1rem 0;
+    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    margin: 2rem 0;
+}
 .imgCard{
     width: 40%;
+    padding: 1rem;
 }
 .cardText{
     width: 60%;
+    padding: 6rem;
 }
 .card h2{
     font-size: 1.6rem;
 }
 .card p{
+    padding: 1.5rem 0;
+    color: var(--neutral-blue);
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+/* footer */
+footer{
+    background-color: var(--dark);
+    padding: 3rem 0;
+   
+}
+footer ul{
+    color: #eee;
+}
+.footerLogo{
+    width: 20%;
+}
+.footerLogo img{
+    filter: saturate(0) invert(1) brightness(1.5);
+}
+footer ul{
+    width: calc(100% / 4);
+    padding: 2rem 1rem;
+}
+footer li{
+    font-size: .8rem;
     color: var(--neutral-blue);
 }
 
-
+footer p:last-child{
+    font-size: .6rem;
+    color: var(--neutral-blue);
+    text-align: right;
+}
 
 
 @media screen and (max-width: 750px){
