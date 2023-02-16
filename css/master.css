@@ -3,8 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif; 
-    color: red;
+    font-family: 'Open Sans', sans-serif;
 }
 :root{
     /* colors */
@@ -15,8 +14,21 @@
     --heading: 'Poppins', sans-serif;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.p-1{
+    padding: 1rem;
+}
+img{
+    width: 100%;
+    display: block;
 }
 
 /* header */
@@ -25,7 +37,9 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.logoContainer{
+    width: 15%;
+}
 
 
 
