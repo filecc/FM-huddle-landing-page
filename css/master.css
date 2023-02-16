@@ -11,8 +11,12 @@
     --neutral-pale: hsl(193, 100%, 96%);
     --neutral-dark: hsl(192, 100%, 9%);
     --neutral-blue: hsl(208, 11%, 55%);
-    --heading: 'Poppins', sans-serif;
+    --headeing: 'Poppins', sans-serif;
 }
+a {
+        text-decoration: none;
+        color: inherit;
+    }
 .container{
     max-width: 1300px;
     margin: 0 auto;
@@ -23,12 +27,45 @@
 .space-between{
     justify-content: space-between;
 }
-.p-1{
-    padding: 1rem;
+.align-center{
+    align-items: center;
+}
+.my-1{
+    margin: 1rem 0;
+}
+.my-2{
+    margin: 2rem 0;
+}
+.my-3{
+    margin: 3rem 0;
+}
+.mb-2{
+    margin-bottom: 2rem;
+}
+.py-1{
+    padding: 1rem 0;
+}
+.py-2{
+    padding: 2rem 0;
+}
+.px-1{
+    padding: 0 1rem;
 }
 img{
     width: 100%;
     display: block;
+}
+.btn{
+    padding: 15px 70px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 10px 20px 1px rgba(0,0,0,0.1);
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn-primary{
+    background-color: var(--primary);
+    color: #eee;
 }
 
 /* header */
@@ -36,13 +73,38 @@ header{
     background-image: url('../images/bg-hero-desktop.svg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #edfafe;
+    font-family: var(--headeing);
 }
 .logoContainer{
     width: 15%;
 }
-
-
-
+.textContainer{
+    width: 45%;
+    padding-right: 2rem;
+}
+.heroImage{
+    width: 55%;
+}
+h1{
+    font-size: 2.3rem;
+}
+header p{
+    line-height: 25px;
+}
+/* main */
+.imgCard{
+    width: 40%;
+}
+.cardText{
+    width: 60%;
+}
+.card h2{
+    font-size: 1.6rem;
+}
+.card p{
+    color: var(--neutral-blue);
+}
 
 
 
