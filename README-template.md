@@ -16,7 +16,6 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -30,10 +29,11 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop](./huddle-desktop.png)
+![Mobile](./huddle-mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/filecc/FM-huddle-landing-page](https://github.com/filecc/FM-huddle-landing-page)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process

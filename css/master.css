@@ -5,7 +5,8 @@
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
 }
-:root{
+
+:root {
     /* colors */
     --primary: #ff52bf;
     --neutral-pale: hsl(193, 100%, 96%);
@@ -14,76 +15,94 @@
     --dark: #0a242f;
     --headeing: 'Poppins', sans-serif;
 }
-body{
+
+body {
     color: var(--neutral-dark);
 }
+
 a {
-        text-decoration: none;
-        color: inherit;
-    }
-ul{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
     list-style: none;
 }
-.container{
+
+.container {
     max-width: 1300px;
     margin: 0 auto;
 }
-.d-flex{
+
+.d-flex {
     display: flex;
 }
-.space-between{
+
+.space-between {
     justify-content: space-between;
 }
-.align-center{
+
+.align-center {
     align-items: center;
 }
-.justify-center{
+
+.justify-center {
     justify-content: center;
 }
-.my-1{
+
+.my-1 {
     margin: 1rem 0;
 }
-.my-2{
+
+.my-2 {
     margin: 2rem 0;
 }
-.my-3{
+
+.my-3 {
     margin: 3rem 0;
 }
-.mb-2{
+
+.mb-2 {
     margin-bottom: 2rem;
 }
-.py-1{
+
+.py-1 {
     padding: 1rem 0;
 }
-.py-2{
+
+.py-2 {
     padding: 2rem 0;
 }
-.px-1{
+
+.px-1 {
     padding: 0 1rem;
 }
-img{
+
+img {
     width: 100%;
     display: block;
 }
-.btn{
+
+.btn {
     padding: 15px 70px;
     background-color: white;
     border-radius: 30px;
-    box-shadow: 2px 10px 20px 1px rgba(0,0,0,0.1);
+    box-shadow: 2px 10px 20px 1px rgba(0, 0, 0, 0.1);
     font-weight: bold;
     font-size: 14px;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: var(--primary);
     color: #eee;
 }
 
-.btn:hover{
+.btn:hover {
     filter: saturate(.8) brightness(1.3);
 }
 
 /* header */
-header{
+header {
     background-image: url('../images/bg-hero-desktop.svg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -91,52 +110,64 @@ header{
     font-family: var(--headeing);
     margin-bottom: 4rem;
 }
-.logoContainer{
+
+.logoContainer {
     width: 15%;
 }
-.textContainer{
+
+.textContainer {
     width: 45%;
     padding-right: 2rem;
 }
-.heroImage{
+
+.heroImage {
     width: 55%;
 }
-h1{
+
+h1 {
     font-size: 2.3rem;
 }
-header p{
+
+header p {
     line-height: 25px;
 }
+
 /* main */
-main{
+main {
     padding: 3rem 0 0 0;
 }
-.card{
+
+.card {
     padding: 1rem 0;
-    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     margin: 2rem 0;
 }
-.imgCard{
+
+.imgCard {
     width: 40%;
     padding: 1rem;
 }
-.cardText{
+
+.cardText {
     width: 60%;
     padding: 6rem;
 }
-.card h2{
+
+.card h2 {
     font-size: 1.6rem;
 }
-.card p{
+
+.card p {
     padding: 1.5rem 0;
     color: var(--neutral-blue);
 }
-.row-reverse{
+
+.row-reverse {
     flex-direction: row-reverse;
 }
 
-.ctaCard{
+.ctaCard {
     width: 700px;
     margin: 0 auto;
     height: 200px;
@@ -146,92 +177,231 @@ main{
     padding: 3rem;
     text-align: center;
     background-color: white;
-    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.1);
 }
-.ctaCard h2{
+
+.ctaCard h2 {
     margin-bottom: 2rem;
     font-size: 1.5rem;
 }
-.ctaCard p{
+
+.ctaCard p {
     margin-bottom: 2rem;
 }
+
 /* footer */
-footer{
+footer {
     background-color: var(--dark);
     padding: 5rem 0 0 3rem;
-   
+
 }
-.footerContainer{
+
+.footerContainer {
     margin-top: 3rem;
 }
-footer ul{
+
+footer ul {
     color: #eee;
 }
-.footerLogo{
+
+.footerLogo {
     width: 20%;
 }
-.footerLogo img{
+
+.footerLogo img {
     filter: saturate(0) invert(1) brightness(1.5);
 }
-footer ul{
+
+footer ul {
     padding: 2rem 0;
 }
-footer li{
+
+footer li {
     font-size: 1rem;
     color: var(--neutral-blue);
     padding: .5rem 0;
 }
-.centerList li:hover{
+
+.centerList li:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-footer p:last-child{
+
+footer p:last-child {
     font-size: .6rem;
     color: var(--neutral-blue);
     text-align: right;
 }
+
 i {
     margin-right: 10px;
 }
 
-.divList{
+.divList {
     width: calc(100% / 3);
 }
 
-.centerList{
+.centerList {
     gap: 3rem;
 }
 
-.social{
+.social {
     padding-left: 4rem;
 }
 
-.social li{
+.social li {
     width: 30px;
     height: 30px;
     border: 1px solid var(--neutral-blue);
     border-radius: 50%;
     margin: 0 .5rem;
-    
+
 }
-.social i{
+
+.social i {
     margin: 0;
     padding: 0;
     font-size: .8rem;
     font-weight: bold;
 }
-.social li:hover i{
+
+.social li:hover i {
     color: var(--primary);
     cursor: pointer;
 }
-.social li:hover{
+
+.social li:hover {
     border: 1px solid var(--primary);
     cursor: pointer;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 750px) {
 
-    header{
+    header {
         background-image: url('../images/bg-hero-mobile.svg');
     }
+
+    nav .btn {
+        padding: 10px 40px;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .logoContainer {
+        width: 40%;
+    }
+
+    .textContainer {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .heroImage {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        line-height: 25px;
+    }
+
+    .card {
+        flex-direction: column-reverse;
+        padding: 1rem 0;
+        box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        margin: 2rem 0;
+    }
+
+    .imgCard {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .cardText {
+        width: 100%;
+        padding: 1.5rem;
+        text-align: center;
+    }
+
+    .card h2 {
+        font-size: 1.5rem;
+    }
+
+    .card p {
+        padding: 1.2rem 0;
+    }
+
+    .row-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .ctaCard {
+        max-width: 90%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ctaCard h2 {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    /* footer */
+    footer {
+        background-color: var(--dark);
+        padding: 5rem 0;
+    }
+    .listContainer{
+        flex-direction: column;
+    }
+    .footerLogo {
+        width: 50%;
+    }
+    footer ul {
+        padding: 2rem 0;
+    }
+    .centerList ul {
+        padding: 0;
+    }
+
+    footer p:last-child {
+        font-size: .8rem;
+        text-align: center;
+    }
+
+    i {
+        margin-right: 20px;
+    }
+
+    .divList {
+        width: 100%;
+    }
+
+    .centerList {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .social {
+        padding-left: 0;
+    }
+    .social ul {
+        justify-content: center;
+    }
+
 }
